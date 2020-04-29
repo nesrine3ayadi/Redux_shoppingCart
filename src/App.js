@@ -15,7 +15,7 @@ function App({ match }) {
         <Route exact path="/home">
           <Sidebar />
           <ProductList />
-        
+          <Footer />
         </Route>
         <Route exact path="/cart">
           <Cart />
